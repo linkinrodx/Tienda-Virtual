@@ -5,7 +5,7 @@
 
 body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 #carousel .container #carousel-collage .app-carousel-img{
@@ -17,7 +17,46 @@ body {
 	max-height: 400px;
 }
 
-.app-art{
-	/*max-height: 200px;*/
+
+
+
+footer{
+	padding:30px 0;
+	background-color:#333}
+
+footer a,footer a:hover{
+	color:#fff;
+	font-weight:400}
+
+footer h3{
+	margin-top:30px;
+	color:#fff;
+	font-size:16px;
+	font-size:1.6rem;
+	text-transform:uppercase}
+
+footer p{
+	color:#ddd;
+	font-weight:200}
+	
+.link-footer a{
+	color:#00bfff;
+	text-decoration:none}
+
+.link-footer a:hover{
+	color:#fff;
+	text-decoration:none}
+
+
+/*Producto*/
+
+.i-item{
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: gris;
+}
+
+.i-item .i-head .i-img{	
+	/*max-height: 200px;*/	
 	width: 100%;
 }
